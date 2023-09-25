@@ -1,0 +1,67 @@
+@import url("reset.css");
+/*
+*{
+    color: black;
+}
+
+p{
+    color: red;
+}
+*/
+/* Селектор класу Пріорітет проти * */
+.conveyor-text{
+    color: green;
+}
+/*ID*/
+#biograf-id{
+    color: rgb(153, 174, 226);
+}
+/*Комбінація тег + класс*/
+div.text{
+    color: brown;
+}
+/*Два класи одночасно*/
+.page-text.page {
+    color: aqua;
+}
+/*Декілька класів*/
+.lorem,
+.lorem-text {
+    color: blueviolet;
+}
+/*Тег А в середені діва*/
+.biograf a{
+    color: antiquewhite;
+}
+/*Усі теги в DIV*/
+.biograf *{
+   /* color: blue;*/
+}
+
+.conveyor-text > p{
+    color: rgb(147, 141, 141);
+}
+/*Атрибут ~ */
+.biograf ~ p{
+    color: rgb(171, 118, 219);
+}
+/*Атрибут +*/
+.biograf + p{
+    color: rgb(189, 47, 47);
+}
+
+span{
+    color: blue;
+}
+
+a{
+    color: chartreuse;
+}
+/*Атрибут +*/
+.div + p{
+    color: blue;
+}
+
+ol{
+    color: rgb(219, 137, 14);
+}
